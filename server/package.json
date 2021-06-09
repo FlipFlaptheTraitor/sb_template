@@ -1,26 +1,19 @@
 {
     "name": "sb_template",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "private": true,
+    "proxy": "http://localhost:3001/",
     "scripts": {
         "start": "node server.js",
         "watch": "nodemon",
         "seed": "node seeders/seeds.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/FlipFlaptheTraitor/sb_template.git"
-    },
-    "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "apollo-server-express": "^2.12.0",
         "bcrypt": "^4.0.1",
         "express": "^4.17.1",
-        "faker": "^4.1.0",
-        "graphql": "^15.5.0",
+        "express-session": "^1.17.2",
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.9.9"
     },

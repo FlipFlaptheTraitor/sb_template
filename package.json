@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "cd server && npm start",
-    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "heroku-postbuild": "cd client && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,11 +15,5 @@
   "bugs": {
     "url": "https://github.com/FlipFlaptheTraitor/sb_template/issues"
   },
-  "homepage": "https://github.com/FlipFlaptheTraitor/sb_template#readme",
-  "dependencies": {
-    "if-env": "^1.0.4"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0"
-  }
+  "homepage": "https://github.com/FlipFlaptheTraitor/sb_template#readme"
 }

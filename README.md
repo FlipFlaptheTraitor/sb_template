@@ -40,8 +40,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
   
   ## Badges
-  [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
-  [![Generic badge](https://img.shields.io/badge/<Github>-<Repo>-<Green>.svg)](https://github.com/FlipFlaptheTraitor/sb_template)
+  [![Generic badge](https://img.shields.io/badge/Repo-link-<Green>.svg)](https://github.com/FlipFlaptheTraitor/sb_template)
+  [![ForTheBadge uses-js](http://ForTheBadge.com/images/badgesjs.svg)](http://ForTheBadge.com)
   <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
   
   ## Features
